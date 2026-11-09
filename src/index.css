@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --stripe-purple: #635bff;
+  --stripe-dark: #0a2540;
+  --stripe-slate: #425466;
+}
+
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  color: #0a2540;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
